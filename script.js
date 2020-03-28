@@ -2,8 +2,6 @@ document.querySelectorAll("input").forEach(input => {
   input.addEventListener("input", inputChanged);
 });
 
-document.getElementById("btn-result").addEventListener("click", getCode);
-
 getCode();
 
 function inputChanged(e) {
